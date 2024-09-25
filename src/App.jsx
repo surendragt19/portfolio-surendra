@@ -3,6 +3,7 @@ import Body from "./components/Body";
 import Footer from "./components/Footer";
 import "remixicon/fonts/remixicon.css";
 import LocomotiveScroll from "locomotive-scroll";
+import toast, { Toaster } from "react-hot-toast";
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <Body />
       <Footer />
+      <Toaster/>
     </div>
   );
 };
