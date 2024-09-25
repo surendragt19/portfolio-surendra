@@ -2,21 +2,21 @@ import CardProject from "./CardProject";
 
 const Projects = () => {
     const project1 = {
-        title: "E-Commerce Application",
-        description: "Implemented functionalities including add to cart, payment integration, admin/user dashboards, product search/filtering, order tracking.",
+        title: "E-Commerce App",
+        description: "Implemented functionalities add to cart, payment integration, admin/user dashboards, product search/filtering, order tracking.",
         link: "https://khatu-shyam-traders.onrender.com",
         github: "https://github.com/surendragt19/khatu_shyam_traders",
         image: "https://images.pexels.com/photos/3769747/pexels-photo-3769747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        technology: ["MERN Stack","Context API","JWT","Bcrypt", "Bootstrap"],
+        technology: ["MERN Stack","Context API","JWT","Bcrypt", "Bootstrap","Braintree"],
     };
 
     const project2 = {
-        title: "REAL-TIME CHAT APPLICATION",
-        description: "Implemented real-time messaging, user authentication, group chat features, notifications, and message history management.",
+        title: "REAL-TIME CHAT APP",
+        description: "Implemented real-time messaging, user authentication, group chat features, notifications, and message history.",
         link: "https://github.com/surendragt19/Real-Time-Chat-App/",
         github: "https://github.com/surendragt19/Real-Time-Chat-App/",
         image: "https://images.pexels.com/photos/1111369/pexels-photo-1111369.jpeg",
-        technology: ["MERN Stack","Socket.io,","Redux Toolkit", "Tailwind CSS"],
+        technology: ["MERN Stack","Socket.io,", "Tailwind CSS"],
     };
     const project3 = {
         title: "Brain Tumor Detection",
@@ -51,9 +51,8 @@ const Projects = () => {
         technology: ["Numpy","Flask","Python","Pandas"],
     };
 
-    // Add more projects as needed...
 
-    const projects = [project1, project2,project3,project4,project5,project6]; // Include all your project objects here
+    const projects = [project1, project2,project3,project4,project5,project6];
 
     return (
         <div id="projects" className="project-section w-full lg:px-32 px-7 py-10 space-y-8">

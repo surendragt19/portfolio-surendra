@@ -19,10 +19,9 @@ const AboutSection = () => {
       scrollTrigger: {
         trigger: ".text",
         scroller: "body",
-        start: "top 90%", // Adjusted start point
-        end: "bottom 40%", // Adjusted end point
+        start: "top 90%", 
+        end: "bottom 40%", 
         scrub: 3,
-        // markers: {startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20},
       },
     });
   });
