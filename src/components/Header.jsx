@@ -80,7 +80,7 @@ const Header = () => {
           <h1><a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a></h1>
           <h1><a href="#contact" onClick={() => setIsMenuOpen(false)}>Contacts</a></h1>
           <h1 className="px-4 py-2 border-2 border-cyenH rounded-lg hover:bg-cyenH hover:text-zinc-800 transition ease-linear flex items-center gap-2 justify-start">
-            <a href="https://drive.google.com/file/d/1Fh67P6nUvfvvJ-3hLdXiJlX0WuHN4uVY/view?usp=sharing" className="flex items-center gap-2" target="_blank">
+            <a href="https://drive.google.com/file/d/14P4ubUTCrhKJLlxcSworEaZJWLFORhtY/view?usp=drivesdk" className="flex items-center gap-2" target="_blank">
               <FaRegFilePdf />
               Resume
             </a>
